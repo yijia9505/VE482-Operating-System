@@ -1,0 +1,7 @@
+compile: make
+run: ./p1
+
+Command Mode: 
+	command1 [parameter1] .. < [inputfile] >/>> [outputfile]
+	command1 [parameter1] .. < [inputfile] | command2 [parameter2] .. >/>> [outputfile]
+	
